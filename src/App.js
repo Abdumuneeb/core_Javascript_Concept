@@ -1,10 +1,12 @@
 import "./App.css";
 import Hoisting from "./Hoisting";
+import VariableScope from "./VariableScope";
 
 function App() {
   return (
     <div>
-      <Hoisting />
+      {/* <Hoisting /> */}
+      <VariableScope />
     </div>
   );
 }
