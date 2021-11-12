@@ -2,6 +2,7 @@ import "./App.css";
 import BlockScopeShadowing from "./BlockScopeShadowing";
 import Closure from "./Closure";
 import FunctionTypes from "./FunctionTypes";
+import HigherOrderFunction from "./HigherOrderFunction";
 import Hoisting from "./Hoisting";
 import LetConstVar from "./LetConstVar";
 import LexicalEnvironment from "./LexicalEnvironment";
@@ -16,7 +17,8 @@ function App() {
       {/* <LetConstVar /> */}
       {/* <BlockScopeShadowing /> */}
       {/* <Closure /> */}
-      <FunctionTypes />
+      {/* <FunctionTypes /> */}
+      <HigherOrderFunction />
     </div>
   );
 }
